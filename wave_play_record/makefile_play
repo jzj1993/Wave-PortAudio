@@ -1,0 +1,8 @@
+
+play:wave_play.cpp wave_file.h
+#	gcc -c main.c -o main.o
+	g++ -o play wave_play.cpp -lrt -lasound -lpthread -lportaudio -lm
+
+clean:
+	rm -f play
+
